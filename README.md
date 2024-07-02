@@ -1,6 +1,7 @@
 # Scraper
 
 > Copy a website's HTML files locally and crawl them looking for a regular expression match.
+> 
 
 -----
 
@@ -9,6 +10,7 @@
 - [Scraper](#scraper)
   - [Contents](#contents)
   - [Prerequisites](#prerequisites)
+  - [Dependencies](#dependencies)
   - [Installation](#installation)
   - [Usage](#usage)
     - [`scraper copy`](#scraper-copy)
@@ -21,6 +23,12 @@
 
 * Node.js version specified in `.nvmrc`
 * Working `wget` command
+
+-----
+
+## Dependencies
+
+The only npm package used is `yargs`.
 
 -----
 
